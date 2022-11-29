@@ -8,4 +8,8 @@ project(pt1_amara
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_FLAGS "-Wall -Wpedantic -Wextra")
 
-add_executable(main main.c)
+add_executable(task1 task1.c)
+add_executable(task2 task2.c)
+add_executable(task3 task3.c)
+add_executable(task4 task4.c)
+add_executable(task5 task5.c)
