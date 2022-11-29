@@ -277,7 +277,6 @@ size_t find_1st_negative_elem(pint arr, ksize_t size)
 pint delete_1st_negative_from_int_arr(pint arr, ksize_t size)
 {
     size_t index = find_1st_negative_elem(arr, size);
-    printf("index = %ld\n", index);
 
     if ((index == 0UL) && (arr[0UL] >= 0))
         printf("Удаление первого отрицательного элемента отклонено.\n");
