@@ -18,12 +18,14 @@ void print_menu()
         {
         case 1:
         {
+            print_task1(1U, 10U);
             printf("Введите номер задания (от 1 до 5; 0 - для выхода): ");
             menuVar = inputInt();
             break;
         }
         case 2:
         {
+            print_task2(-5, 10);
             printf("Введите номер задания (от 1 до 5; 0 - для выхода): ");
             menuVar = inputInt();
             break;
