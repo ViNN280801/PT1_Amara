@@ -4,4 +4,5 @@
 int inputInt()
 {
     return inputIntBasic(BUFFER_SIZE);
+    
 }
