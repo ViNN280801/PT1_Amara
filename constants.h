@@ -1,0 +1,2 @@
+#define BUFFER_SIZE 256
+#define UINT_ARR_SIZE 50
