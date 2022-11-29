@@ -4,8 +4,11 @@ RUN apk add build-base
 WORKDIR /app
 COPY . .
 
-RUN gcc task1.c -std=c17 -Wall -Wpedantic -Wextra -o task1 && \
-    gcc task2.c -std=c17 -Wall -Wpedantic -Wextra -o task2
+RUN gcc task1.c -std=c17 -Wall -Wpedantic -Wextra -o main && \
+    gcc task2.c -std=c17 -Wall -Wpedantic -Wextra -o main && \
+    gcc task3.c -std=c17 -Wall -Wpedantic -Wextra -o main && \
+    gcc task4.c -std=c17 -Wall -Wpedantic -Wextra -o main && \
+    gcc task5.c -std=c17 -Wall -Wpedantic -Wextra -o main
 
 FROM alpine:latest
 
